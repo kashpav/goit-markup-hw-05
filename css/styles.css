@@ -141,6 +141,19 @@ margin-right: 93px;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.curent::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--accent-color);
+}
+
+
 .header-contacts {
     display: flex;
     justify-content: center;
@@ -388,7 +401,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.03em;
     color: var(--header-color);
     margin-bottom: 10px;
-    /* padding-top: 30px; */
 }
 
 .team-duty {
@@ -512,8 +524,6 @@ margin-bottom: 20px;
 .footer-soc-list {
     display: flex;
     justify-content: left;
-    /* margin-top: 16px; */
-    /* padding-bottom: 30px; */
 }
 
 .footer-content, 
@@ -523,7 +533,6 @@ box-sizing: content-box;
 
 .footer-soc {
     margin-left: 70px;
-    /* margin-top: 12px; */
 }
 
 
@@ -553,7 +562,6 @@ box-sizing: content-box;
 .footer-soc-link:focus {
     transition-property: background-color;
     background-color: var(--accent-color);
-    /* color: #FFFFFF; */
 }
 
 /* ----Portfolio----- */
